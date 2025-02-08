@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rohith Babu | Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/global.css">
+	<!-- Update Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+	<!-- Header Section -->
+	<header class="header">
+		<nav class="nav-container">
+			<div class="logo">Rohith Babu</div>
+			<ul class="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li class="theme-toggle-wrapper">
+					<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+						<i class="fas fa-moon"></i>
+					</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<!-- Hero Section -->
+	<section id="home" class="hero-section">
+		<div class="container hero-container">
+			<div class="hero-content-left">
+				<h1>Hi, I'm <span class="highlight">Rohith Babu</span></h1>
+				<h2>Software Development Engineer</h2>
+				<p class="hero-description">Transforming ideas into elegant digital solutions</p>
+				<div class="cta-buttons">
+					<a href="#contact" class="btn primary-btn">Contact Me</a>
+					<a href="assets/resume.pdf" class="btn secondary-btn" download>Download CV</a>
+				</div>
+			</div>
+			<div class="hero-content-right">
+				<div class="image-wrapper">
+					<img src="assets/for_portfolio.JPG" alt="Rohith Babu" class="profile-image">
+					<div class="image-bg-square"></div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- About Section -->
+	<section id="about" class="about-section">
+		<div class="container">
+			<h2 class="section-title">About Me</h2>
+			<div class="about-content">
+				<div class="bio">
+					<p>I am a passionate full-stack developer with expertise in building scalable web applications. With a strong foundation in both frontend and backend technologies, I strive to create efficient and user-friendly solutions.</p>
+				</div>
+				<div class="experience">
+					<h3>Experience</h3>
+					<div class="experience-item">
+						<h4>Senior Developer - Tech Company</h4>
+						<p class="date">2020 - Present</p>
+						<p>Led development of multiple web applications using modern technologies.</p>
+					</div>
+					<!-- Add more experience items as needed -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects Section -->
+	<section id="projects" class="projects-section">
+		<div class="container">
+			<h2 class="section-title">Projects</h2>
+			<div class="projects-grid">
+				<div class="project-card">
+					<img src="assets/project1.jpg" alt="Project 1">
+					<h3>Project Title 1</h3>
+					<p>Description of the project and its key features.</p>
+					<div class="tech-stack">
+						<span>React</span>
+						<span>Node.js</span>
+						<span>MongoDB</span>
+					</div>
+					<div class="project-links">
+						<a href="#" class="btn">Live Demo</a>
+						<a href="#" class="btn">GitHub</a>
+					</div>
+				</div>
+				<!-- Add more project cards as needed -->
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills Section -->
+	<section id="skills" class="skills-section">
+		<div class="container">
+			<h2 class="section-title">Skills</h2>
+			<div class="skills-container">
+				<div class="skill-category">
+					<h3>Frontend</h3>
+					<div class="skills-grid">
+						<div class="skill-item">
+							<i class="fab fa-html5"></i>
+							<span>HTML5</span>
+						</div>
+						<div class="skill-item">
+							<i class="fab fa-css3-alt"></i>
+							<span>CSS3</span>
+						</div>
+						<div class="skill-item">
+							<i class="fab fa-js"></i>
+							<span>JavaScript</span>
+						</div>
+						<!-- Add more frontend skills -->
+					</div>
+				</div>
+				<!-- Add more skill categories -->
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<section id="contact" class="contact-section">
+		<div class="container">
+			<h2 class="section-title">Contact Me</h2>
+			<div class="contact-content">
+				<div class="contact-info">
+					<div class="contact-item">
+						<i class="fas fa-envelope"></i>
+						<p>email@example.com</p>
+					</div>
+					<div class="contact-item">
+						<i class="fas fa-phone"></i>
+						<p>+1 234 567 890</p>
+					</div>
+				</div>
+				<form class="contact-form">
+					<input type="text" placeholder="Your Name" required>
+					<input type="email" placeholder="Your Email" required>
+					<textarea placeholder="Your Message" required></textarea>
+					<button type="submit" class="btn primary-btn">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="social-links">
+				<a href="#"><i class="fab fa-github"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+			</div>
+			<p class="copyright">© 2023 Rohith Babu. All rights reserved.</p>
+			<p class="built-with">Built with ❤️ using HTML, CSS, and JavaScript</p>
+		</div>
+	</footer>
+
+	<script src="index.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+</html>
